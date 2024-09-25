@@ -1,0 +1,84 @@
+h2,
+h3, 
+i{
+    text-align: center;
+    background-color: bisque;
+
+    
+}
+b{
+    background-color: bisque;
+    
+    
+}
+strong{
+    background-color: aqua;
+    
+
+}
+a:hover{
+    color: bisque;
+}
+a:active{
+    color: green;
+}
+p{
+    font-family: sans-serif;
+}
+li{
+    font-style: oblique;
+    font-size: large;
+    text-align: center;
+
+}
+ul{
+    font-style: oblique;
+    font-size: large;
+}
+input{
+    
+   
+    color: red;
+    background-color: bisque;
+    border-radius: 100px;
+    border-style: dotted;
+    
+}
+textarea{
+    
+    color: red;
+    background-color: bisque;
+}
+body{
+    background-color: aquamarine;
+   
+}
+.hpic{
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px  5px white;
+    
+    
+}
+a{
+    cursor: alias;
+}
+.mimg{
+    border-radius: 50%;
+    filter: drop-shadow(1px 5px 40px bisque);
+    align-items: center;
+    transform: translateX(0px);
+    animation: float 3sec ease-in-out infinite;
+
+   
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
